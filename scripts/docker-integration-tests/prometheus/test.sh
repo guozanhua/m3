@@ -37,7 +37,8 @@ curl -vvvsSf -X POST 0.0.0.0:7201/api/v1/namespace -d '{
       "bufferFutureNanos": 600000000000,
       "bufferPastNanos": 600000000000,
       "blockDataExpiry": true,
-      "blockDataExpiryAfterNotAccessPeriodNanos": 300000000000
+      "blockDataExpiryAfterNotAccessPeriodNanos": 300000000000,
+      "futureRetentionPeriodNanos": 172800000000000
     },
     "indexOptions": {
       "enabled": true,
@@ -65,7 +66,8 @@ curl -vvvsSf -X POST 0.0.0.0:7201/api/v1/namespace -d '{
       "bufferFutureNanos": 600000000000,
       "bufferPastNanos": 600000000000,
       "blockDataExpiry": true,
-      "blockDataExpiryAfterNotAccessPeriodNanos": 300000000000
+      "blockDataExpiryAfterNotAccessPeriodNanos": 300000000000,
+      "futureRetentionPeriodNanos": 172800000000000
     },
     "indexOptions": {
       "enabled": true,
