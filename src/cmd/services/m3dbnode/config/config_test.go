@@ -219,6 +219,14 @@ db:
             size: 9437184
             lowWatermark: 0.01
             highWatermark: 0.02
+        bufferBucketPool:
+            size: 2
+            lowWatermark: 0.01
+            highWatermark: 0.02
+        bufferBucketVersionsPool:
+            size: 2
+            lowWatermark: 0.01
+            highWatermark: 0.02
         bytesPool:
             buckets:
                 - capacity: 16
@@ -542,6 +550,14 @@ db:
         size: 8192
         lowWatermark: 0.01
         highWatermark: 0.02
+    bufferBucketPool:
+      size: 2
+      lowWatermark: 0.01
+      highWatermark: 0.02
+    bufferBucketVersionsPool:
+      size: 2
+      lowWatermark: 0.01
+      highWatermark: 0.02
   config:
     service:
       zone: embedded
